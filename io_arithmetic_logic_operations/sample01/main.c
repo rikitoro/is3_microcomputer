@@ -1,4 +1,4 @@
-#include <avr/io.h>
+#include <avr/io.h> // I/Oポート関連のレジスタが定義されている
 
 int main()
 {
