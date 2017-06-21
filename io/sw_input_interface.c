@@ -1,4 +1,4 @@
-#include "sw_intput_interface.h"
+#include "sw_input_interface.h"
 #include <avr/io.h>
 
 void init_sw() {
