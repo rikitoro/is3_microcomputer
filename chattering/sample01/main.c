@@ -1,4 +1,4 @@
-#include "sw_intput_interface.h"
+#include "sw_input_interface.h"
 #include "led_output_interface.h"
 
 unsigned char get_sw7(); //sw7の値を返す
