@@ -12,3 +12,7 @@ unsigned char get_sw(){
   // PORTG, PORTEからスイッチの情報を取得
   return (PING & 0x1F)|(PINE & 0xC0)|((PINE & 0x04) << 3);
 }
+
+unsigned char get_sw7() {
+  return (get_sw() >> 7) & 0x01;
+}
