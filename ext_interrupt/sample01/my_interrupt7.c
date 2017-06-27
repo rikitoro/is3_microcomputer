@@ -5,7 +5,7 @@
 #include "led_output_interface.h"
 #include "delay.h"
 
-static int count = 0; // カウント値(SB7の立ち上がりをカウント)
+static unsigned char count = 0; // カウント値(SB7の立ち上がりをカウント)
 
 // INT7 外部割り込み処理のプロトタイプ宣言
 ISR(INT7_vect); // ISRマクロにINT7の割り込みベクタ INT7_vectを渡す
