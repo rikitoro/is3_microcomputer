@@ -16,3 +16,7 @@ unsigned char get_sw(){
 unsigned char get_sw7() {
   return (get_sw() >> 7) & 0x01;
 }
+
+unsigned char get_sw6() {
+  return (get_sw() >> 6) & 0x01;
+}
