@@ -1,7 +1,7 @@
 #include "my_interrupt6.h"
 #include <avr/interrupt.h> // 割り込みを使う場合にインクルードする
 
-#include "sw_intput_interface.h"
+#include "sw_input_interface.h"
 #include "led_output_interface.h"
 #include "delay.h"
 
